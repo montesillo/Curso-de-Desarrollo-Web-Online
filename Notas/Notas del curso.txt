@@ -23,6 +23,8 @@ JavaScript = Es el lenguaje de programación del navegador.
 ¿Cómo hacerte un buen Frontend?
 Es un conjunto de estudiar y practicar un monton :)
 
+DOM Document object model
+Modelo de documento que se carga en el navegador web y que representa el documento como un árbol de nodos
 
 Las etiquetas HTML es usada para cerar contenido
 
@@ -56,7 +58,7 @@ nav = sirve para el menu de navegación
 
 ol = listas ordenadas, crea numeros para ordenarlas
 
-ul = listas desordenadas
+ul = listas desordenadas, les coloca un punto
 
 li = lista de items
 
