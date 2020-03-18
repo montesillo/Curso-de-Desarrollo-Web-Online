@@ -88,3 +88,12 @@ selectores: Como identificamos algún elemento HTML
 declaraciones: Todo lo que se hace con ese selector
 propiedades: Cosas particulares que se pueden hacer con esos elementos
 valores: Es lo que se espera recibir las propiedades de forma correcta
+
+Colores y pixeles
+Ciertos colores se pueden representar con palabras claves como “red, blue”
+También usando hexadecimales o rgb(), rgba()
+Hexadecimal #FFFFFFFF(Blanco) #00000000(Negro)
+Las primeras dos letras representan el rojo, las siguientes dos verde, y las dos ultimas son azul.
+Las unidades de medida por excelencia dentro del mundo digital son los pixeles.
+Un pixel es la mejor unidad homogénea en color que forma parte de una imagen digital.
+
