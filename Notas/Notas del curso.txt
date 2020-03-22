@@ -97,3 +97,10 @@ Las primeras dos letras representan el rojo, las siguientes dos verde, y las dos
 Las unidades de medida por excelencia dentro del mundo digital son los pixeles.
 Un pixel es la mejor unidad homogénea en color que forma parte de una imagen digital.
 
+Una fuente es el diseño de la tipografía que utiliza nuestro web site
+Las propiedades de css se heredan.
+Con font-family: //Se puede cambiar el tipo de fuente.
+Si una fuente tiene más de dos palabras se tienen que poner entre comillas.
+Aquí se pueden encontrar diferentes tipos de fuentes.
+https://fonts.google.com/ 
+
