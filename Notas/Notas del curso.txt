@@ -104,3 +104,18 @@ Si una fuente tiene más de dos palabras se tienen que poner entre comillas.
 Aquí se pueden encontrar diferentes tipos de fuentes.
 https://fonts.google.com/ 
 
+line-height: // sirve para poner un alto de línea.
+font-size: 40px; // Sirve para el tamaño del texto.
+font-weight: 400; // Ancho del tipo de fuente.
+letter-spacing: -.2px; // Coloca el espacio de las letras.
+text-transform: // Puedes cambiar mayúsculas y minúsculas.
+
+Con color piker se puede obtener los colores de una imagen.
+Con la etiqueta <a> se tiene que ser más especifico para cambiar el color ya que estas bien con un color ya determinado.
+
+background-size: 500px 300px; // Con esta propiedad puedes colocar tamaño a la imagen que esta de fondo en css, el primer valor es el ancho y el segundo valor es el alto.
+background-repeat: // Controlas cuantas veces se puede repetir una imagen.
+background-position // Controlas la posición del fondo.
+
+border: 1px solid gray; // Propiedad de border el primer elemento es el tamaño, el segundo el tipo de border linea, punteada u otros, el tercero es el color que tendrá ese border.
+border-radius: 10px; // Con este elemento se pueden redondear las esquinas de un border.
