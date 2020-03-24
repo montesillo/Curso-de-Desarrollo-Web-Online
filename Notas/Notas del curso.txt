@@ -119,3 +119,18 @@ background-position // Controlas la posición del fondo.
 
 border: 1px solid gray; // Propiedad de border el primer elemento es el tamaño, el segundo el tipo de border linea, punteada u otros, el tercero es el color que tendrá ese border.
 border-radius: 10px; // Con este elemento se pueden redondear las esquinas de un border.
+
+margin: top right bottom left; De esta forma actúa la propiedad margin.
+
+Cuando se utiliza margin y padding?
+Margin se utiliza para separar desde fuera del elemento, padding hace la separación desde dentro del elemento
+
+El modelo de caja sirve para obtener el tamaño total que va a ocupar un elemento.
+La propiedad para que se quede el fijo del tamaño del elemento es: box-sizing: border-box, con este elemento provoca que se respete el tamaño exacto width y height.
+Cada elemento puede tener diferente display, algunos elementos heredan el display de su elemento padre.
+Con el elemeto display: inline-block; Respeta el tamaño que se le asigno al contenedor.
+Flexbox se refiere al tipo de display en css que permite un manejo flexible de la alineación, dimensionamiento y distribución de elementos html.
+Esta propiedad se aplica a un elemento padre, pero va a afectar principalmente a sus elementos hijos directos. Por defecto, los elementos internos quedan alineados unos seguidos de los otros. El comportamiento del modelo de caja de estos elementos hijos también se ha modificado, ya que pierden el efecto de su propiedad margin.
+Los elementos hijos de un padre con propiedad display: flex tienen a su disposición algunas nuevas propiedades que aportan mayor flexibilidad a su comportamiento. Una de estas propiedades es flex-shrink que, junto a la propiedad flex-wrap del padre, permite adaptar y distribuir los elementos de manera dinámica en el espacio horizontal disponible hasta ocupar todo el espacio, y luego pasar a ocupar dinámicamente las siguiente filas hacia abajo.
+Flex-shrink: 0; permite respetar los tamaños asignados a pesar de que exista display: flex en el elemento padre.
+Flex-wrap: wrap; Con esta propiedad permite que los elementos bajen si el espacio no es suficiente para los elementos, esta propiedad se utiliza en el elemento padre.
