@@ -14,7 +14,7 @@ h1{
 	line-height: 1.5;
 	letter-spacing: -.2px;
 	color: white;
-	margin: top right bottom left;
+	margin: 0;
 }
 h1 strong{
 	color: #026fff;
@@ -26,6 +26,8 @@ h1 strong{
 	background-size: 500px 300px;
 	background-repeat: no-repeat;
 	background-position-x: right;
+	display: flex;
+	align-items: center;
 }
 .portfolio{
 	background: #fafafa;
@@ -57,8 +59,50 @@ h1 strong{
 .header{
 	background-color: #1b2127;
 	color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+
+}
+ol, ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+figure{
+	margin: 0;
 }
 .header a{
 	color: white;
 	text-decoration: none;
+}
+.menu{
+	height: inherit;
+}
+.header ol{
+	display: flex;
+	height: inherit;
+}
+.header ol li{
+	height: inherit;
+}
+.header a{
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 10px;
+}
+.footer{
+	color: white;
+	background-color: #1b2127;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer img{
+	vertical-align: middle;
+}
+.footer a{
+	color: white;
 }

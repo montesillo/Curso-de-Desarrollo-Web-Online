@@ -134,3 +134,21 @@ Esta propiedad se aplica a un elemento padre, pero va a afectar principalmente a
 Los elementos hijos de un padre con propiedad display: flex tienen a su disposición algunas nuevas propiedades que aportan mayor flexibilidad a su comportamiento. Una de estas propiedades es flex-shrink que, junto a la propiedad flex-wrap del padre, permite adaptar y distribuir los elementos de manera dinámica en el espacio horizontal disponible hasta ocupar todo el espacio, y luego pasar a ocupar dinámicamente las siguiente filas hacia abajo.
 Flex-shrink: 0; permite respetar los tamaños asignados a pesar de que exista display: flex en el elemento padre.
 Flex-wrap: wrap; Con esta propiedad permite que los elementos bajen si el espacio no es suficiente para los elementos, esta propiedad se utiliza en el elemento padre.
+
+Con justify-content: // Se puede alinear elemento.
+Similar a como sucede con justify-content, es posible alinear y distribuir los elementos internos en el 
+espacio vertical disponible usando la propiedad align-items, que puede tomar también los valores de: flex-start,
+ flex-end y center.
+
+Algo que es muy importante y se debe tener en cuenta a la hora de usar align-items y justify-content 
+es que dependiendo de la propiedad flex-direction que se haya definido, el efecto de ambos se invierte, 
+no en cuanto a sus elementos internos, sino en cuanto a si se debe usar uno u otro de manera vertical u horizontal.
+
+IMPORTANTE: Cuando la propiedad flex-direction se ha definido como column, la propiedad justify-content 
+ya no va a aplicar sobre la alineación horizontal, sino sobre la vertical. Y align-items ya no aplicaría 
+sobre la alineación vertical sino la horizontal. Se intercambian sus efectos.
+
+Para centrar completamente los elementos internos de manera vertical y horizontal en su elemento padre, 
+debemos usar el valor center en ambas propiedades.
+Usar align-items y justify-content puedes centrar completamente un elemento.
+Con aling-self: // Se pueden cambiar la alineación del hijo.
