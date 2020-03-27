@@ -152,3 +152,6 @@ Para centrar completamente los elementos internos de manera vertical y horizonta
 debemos usar el valor center en ambas propiedades.
 Usar align-items y justify-content puedes centrar completamente un elemento.
 Con aling-self: // Se pueden cambiar la alineación del hijo.
+
+Cuando tienes texto y otro tipo de elemento, se usa vertical-aling: // para poder centrarla con el elemento.
+Con objet-fit: cover; Se mantiene una imagen en proporción
